@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-800 font-sans;
+}
+
+a {
+  @apply text-blue-500 hover:underline;
+}
+
+.container {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.button-primary {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline;
+}
+
+.button-secondary {
+  @apply bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline;
+}
+
+.table {
+  @apply w-full border-collapse;
+}
+
+.table-header {
+  @apply bg-gray-200;
+}
+
+.table-row {
+  @apply border-b border-gray-300;
+}
+
+.table-cell {
+  @apply p-3;
+}
